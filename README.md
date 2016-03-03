@@ -1,6 +1,6 @@
 # Server portion of the Icebreaker Project
 
-This repo is for the Server of the Icebreaker Project. For more information on the Project see [Icebreaker-App]().
+This repo is for the Server of the Icebreaker Project. For more information on the Project see [Icebreaker-App](https://github.com/Icebreaker-Project/Icebreaker-App).
 
 This server is to be written in Python on MongoDB(needs review) and Nginx.
 
