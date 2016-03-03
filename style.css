@@ -1,4 +1,107 @@
+/* This CSS file is for index.html ONLY*/
 
+/* Font Imports*/
+@font-face{
+    font-family: 'Noto Sans';
+    font-weight: normal;
+    font-style: normal;
+    src: url('res/fonts/NotoSans-Regular.ttf');
+}
+@font-face{
+    font-family: 'Noto Sans Bold';
+    font-weight: bold;
+    font-style: normal;
+    src: url('res/fonts/NotoSans-Bold.ttf');
+}
+@font-face{
+    font-family: 'Noto Sans Italic';
+    font-weight: normal;
+    font-style: italic, oblique;
+    src: url('res/fonts/NotoSans-Italic.ttf');
+}
+@font-face{
+    font-family: 'Noto Sans Bold-Italic';
+    font-weight: bold;
+    font-style: italic, oblique;
+    src: url('res/fonts/NotoSans-BoldItalic.ttf');
+}
+
+/* Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
 body{
-    
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    color: white;
+    background-image: url(res/background.png);
+    background-size: contain;
+
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-decoration: underline;
+    font-size: 5em;
+}
+div{
+
+    flex-wrap:wrap;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+button{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+
+    height: 3em;
+    width: 10em;
+}
+
+.jumbotron{
+    background-image: url(res/iceberg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: .3em solid white;
+
+    padding: 2em;
+    margin: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+.jumbotron h2{
+    margin: 1em;
+    margin-bottom: 0;
+}
+.buttonBox{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buttonBox button{
+    margin: 1em;
+    border: 0.3em solid white;
+    background: none;
+    color: inherit;
+    font-family: "Noto Sans Bold";
+    transition: background-color .5s, color .5s;
+}
+.buttonBox button:hover{
+    background-color: white;
+    color: black;
+}
+.about{
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+}
+.box{
+    background-color: white;
+    width:20em;
+    margin: 2em;
+    padding: 1em;
 }
